@@ -1,5 +1,5 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:shopping_ui/presentation/cart_item/cart_item_state.dart';
+import 'package:shopping_ui/presentation/cubits/cart_item/cart_item_state.dart';
 
 class CartItemCubit extends Cubit<CartItemState> {
   CartItemCubit() : super(CartItemInitial());

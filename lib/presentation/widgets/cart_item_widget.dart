@@ -2,11 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:nested/nested.dart';
 import 'package:shopping_ui/data/models/shoe.dart';
-import 'package:shopping_ui/presentation/cart_item/cart_item_cubit.dart';
-import 'package:shopping_ui/presentation/cart_item/cart_item_state.dart';
+import 'package:shopping_ui/presentation/cubits/cart_item/cart_item_cubit.dart';
+import 'package:shopping_ui/presentation/cubits/cart_item/cart_item_state.dart';
 import 'package:shopping_ui/presentation/widgets/margins/y_margin.dart';
 import 'package:shopping_ui/utils/helper.dart';
-
 import 'package:shopping_ui/utils/hex_color.dart';
 
 class CartItemWidget extends StatefulWidget {
