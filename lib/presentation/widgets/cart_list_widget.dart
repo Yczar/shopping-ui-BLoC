@@ -46,7 +46,7 @@ class _CartListWidgetState extends State<CartListWidget> {
               context
                   .read<CartBloc>()
                   .add(ResetCartBlocEvent()); // Reset the [CartBloc] state
-            }
+            } else if (state is CartInitial) {}
           },
         )
       ],

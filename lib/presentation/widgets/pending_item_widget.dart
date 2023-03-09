@@ -34,7 +34,7 @@ class _PendingItemWidgetState extends State<PendingItemWidget> {
             children: [
               Center(
                 child: SizedBox(
-                  height: size.height / 1.8,
+                  height: size.height / 1.5,
                   width: 360,
                   child: Card(
                     shape: RoundedRectangleBorder(

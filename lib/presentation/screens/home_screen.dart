@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:shopping_ui/presentation/blocs/shoe_bloc/shoe_bloc.dart';
 import 'package:shopping_ui/presentation/widgets/cart_widget.dart';
+import 'package:shopping_ui/presentation/widgets/margins/x_margin.dart';
 import 'package:shopping_ui/presentation/widgets/pending_item_widget.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -71,6 +72,7 @@ class _HomeScreenState extends State<HomeScreen>
             mainAxisAlignment: MainAxisAlignment.center,
             children: const [
               PendingItemWidget(),
+              XMargin(20),
               CartWidget(),
             ],
           ),

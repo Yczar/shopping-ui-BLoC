@@ -14,7 +14,7 @@ class _CartWidgetState extends State<CartWidget> {
   Widget build(BuildContext context) {
     final size = MediaQuery.of(context).size;
     return SizedBox(
-      height: size.height / 1.8,
+      height: size.height / 1.5,
       width: 360,
       child: Card(
         elevation: 5,
