@@ -1,5 +1,7 @@
 ## Shopping UI(BLoC Version)
 
+![video](https://user-images.githubusercontent.com/32166619/224167011-e7ba4af5-1014-453b-bb71-bc1a5bb36788.gif)
+
 This project is an example of how to use Bloc and Cubit packages to manage application state in Flutter. The project is a simple e-commerce application that allows users to view a list of shoes and add them to a shopping cart.
 
 The main feature of the application is the use of the Bloc and Cubit patterns to manage the state of the shopping cart. The application uses the `shoe_bloc.dart` file to define a `ShoeBloc` class that manages the state of the shoes in the application.
